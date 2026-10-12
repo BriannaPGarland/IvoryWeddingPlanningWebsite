@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf6eb"/>
+      <stop offset="100%" stop-color="#f5ecdb"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ca981d"/>
+      <stop offset="100%" stop-color="#a47814"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- Top Navigation Bar -->
+  <rect x="0" y="0" width="1200" height="70" fill="#ffffff" filter="url(#shadow)"/>
+  <rect x="0" y="69" width="1200" height="1" fill="#ebdcc0"/>
+  
+  <!-- Logo / Brand -->
+  <circle cx="50" cy="35" r="16" fill="url(#gold)"/>
+  <text x="50" y="41" font-family="serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">I</text>
+  <text x="78" y="42" font-family="serif" font-size="22" font-weight="bold" fill="#2c2419">IVORY</text>
+  <text x="145" y="42" font-family="sans-serif" font-size="11" fill="#8c7a63" letter-spacing="2">WEDDING OS</text>
+
+  <!-- Nav Pills -->
+  <rect x="360" y="18" width="100" height="34" rx="8" fill="#ca981d"/>
+  <text x="410" y="40" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Dashboard</text>
+
+  <rect x="470" y="18" width="90" height="34" rx="8" fill="#faf6eb" stroke="#ebdcc0"/>
+  <text x="515" y="40" font-family="sans-serif" font-size="13" font-weight="600" fill="#6e5d48" text-anchor="middle">Vendors</text>
+
+  <rect x="570" y="18" width="85" height="34" rx="8" fill="#faf6eb" stroke="#ebdcc0"/>
+  <text x="612" y="40" font-family="sans-serif" font-size="13" font-weight="600" fill="#6e5d48" text-anchor="middle">Budget</text>
+
+  <rect x="665" y="18" width="85" height="34" rx="8" fill="#faf6eb" stroke="#ebdcc0"/>
+  <text x="707" y="40" font-family="sans-serif" font-size="13" font-weight="600" fill="#6e5d48" text-anchor="middle">Vision</text>
+
+  <rect x="760" y="18" width="90" height="34" rx="8" fill="#faf6eb" stroke="#ebdcc0"/>
+  <text x="805" y="40" font-family="sans-serif" font-size="13" font-weight="600" fill="#6e5d48" text-anchor="middle">Walkthrough</text>
+
+  <!-- Action Badges Right -->
+  <rect x="990" y="18" width="170" height="34" rx="17" fill="#10b981" fill-opacity="0.12" stroke="#10b981" stroke-opacity="0.3"/>
+  <circle cx="1008" cy="35" r="4" fill="#10b981"/>
+  <text x="1080" y="40" font-family="sans-serif" font-size="11" font-weight="bold" fill="#047857" text-anchor="middle">Gmail Connected</text>
+
+  <!-- Hero Header Card -->
+  <g transform="translate(40, 95)">
+    <rect width="1120" height="120" rx="16" fill="#ffffff" stroke="#ebdcc0" filter="url(#shadow)"/>
+    <text x="35" y="42" font-family="serif" font-size="28" font-weight="bold" fill="#2c2419">Brianna &amp; Jordan's Wedding</text>
+    <text x="35" y="70" font-family="sans-serif" font-size="13" fill="#6e5d48">August 18, 2026 • Oakridge Estate &amp; Vineyards, Sonoma Valley • 140 Guests</text>
+    
+    <!-- Countdown pill -->
+    <rect x="35" y="82" width="130" height="24" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-opacity="0.3"/>
+    <text x="100" y="98" font-family="sans-serif" font-size="11" font-weight="bold" fill="#b45309" text-anchor="middle">⏱ 311 Days to Go</text>
+
+    <!-- Quick stats right -->
+    <g transform="translate(820, 25)">
+      <rect width="265" height="70" rx="12" fill="#faf6eb" stroke="#ebdcc0"/>
+      <text x="20" y="30" font-family="sans-serif" font-size="11" font-weight="bold" fill="#8c7a63" text-transform="uppercase">Total Budget Spent</text>
+      <text x="20" y="55" font-family="sans-serif" font-size="22" font-weight="bold" fill="#2c2419">$58,250 <tspan font-size="13" font-weight="normal" fill="#8c7a63">/ $75,000</tspan></text>
+      <rect x="180" y="24" width="70" height="22" rx="11" fill="#10b981" fill-opacity="0.15"/>
+      <text x="215" y="39" font-family="sans-serif" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">77% Active</text>
+    </g>
+  </g>
+
+  <!-- 3 Metric Cards Row -->
+  <g transform="translate(40, 235)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="355" height="135" rx="14" fill="#ffffff" stroke="#ebdcc0" filter="url(#shadow)"/>
+    <circle cx="35" cy="40" r="18" fill="#ca981d" fill-opacity="0.15"/>
+    <text x="35" y="45" font-family="sans-serif" font-size="16" fill="#ca981d" text-anchor="middle">★</text>
+    <text x="68" y="35" font-family="sans-serif" font-size="12" font-weight="bold" fill="#8c7a63" text-transform="uppercase">Booked Vendors</text>
+    <text x="68" y="58" font-family="sans-serif" font-size="26" font-weight="bold" fill="#2c2419">8 <tspan font-size="14" font-weight="normal" fill="#8c7a63">of 12 Confirmed</tspan></text>
+    <rect x="25" y="85" width="305" height="8" rx="4" fill="#f0ebe0"/>
+    <rect x="25" y="85" width="203" height="8" rx="4" fill="#ca981d"/>
+    <text x="25" y="112" font-family="sans-serif" font-size="11" fill="#6e5d48">4 contracts signed with verified electronic receipts</text>
+
+    <!-- Card 2 -->
+    <rect x="382" y="0" width="355" height="135" rx="14" fill="#ffffff" stroke="#ebdcc0" filter="url(#shadow)"/>
+    <circle cx="417" cy="40" r="18" fill="#10b981" fill-opacity="0.15"/>
+    <text x="417" y="46" font-family="sans-serif" font-size="16" fill="#10b981" text-anchor="middle">✓</text>
+    <text x="450" y="35" font-family="sans-serif" font-size="12" font-weight="bold" fill="#8c7a63" text-transform="uppercase">Dynamic Contingency</text>
+    <text x="450" y="58" font-family="sans-serif" font-size="26" font-weight="bold" fill="#047857">$7,500 <tspan font-size="13" font-weight="normal" fill="#8c7a63">(10.0% Reserve)</tspan></text>
+    <text x="407" y="100" font-family="sans-serif" font-size="11" fill="#6e5d48">Auto-balanced contingency cushion protecting against quote creep.</text>
+
+    <!-- Card 3 -->
+    <rect x="765" y="0" width="355" height="135" rx="14" fill="#ffffff" stroke="#ebdcc0" filter="url(#shadow)"/>
+    <circle cx="800" cy="40" r="18" fill="#6366f1" fill-opacity="0.15"/>
+    <text x="800" y="46" font-family="sans-serif" font-size="16" fill="#6366f1" text-anchor="middle">⚡</text>
+    <text x="833" y="35" font-family="sans-serif" font-size="12" font-weight="bold" fill="#8c7a63" text-transform="uppercase">AI Extraction Feed</text>
+    <text x="833" y="58" font-family="sans-serif" font-size="26" font-weight="bold" fill="#2c2419">3 New Quotes</text>
+    <text x="790" y="100" font-family="sans-serif" font-size="11" fill="#6e5d48">Gmail parser discovered 2 PDF contracts and 1 deposit receipt.</text>
+  </g>
+
+  <!-- Two Column Content Area -->
+  <g transform="translate(40, 390)">
+    <!-- Left: Vendor Timeline & Inbox Feed -->
+    <rect x="0" y="0" width="700" height="255" rx="16" fill="#ffffff" stroke="#ebdcc0" filter="url(#shadow)"/>
+    <text x="25" y="35" font-family="serif" font-size="18" font-weight="bold" fill="#2c2419">Recent Vendor Pipeline &amp; Verified Contracts</text>
+    
+    <!-- Item 1 -->
+    <g transform="translate(25, 55)">
+      <rect width="650" height="52" rx="10" fill="#faf6eb" stroke="#ebdcc0"/>
+      <circle cx="30" cy="26" r="14" fill="#ca981d" fill-opacity="0.2"/>
+      <text x="30" y="31" font-family="serif" font-size="12" font-weight="bold" fill="#ca981d" text-anchor="middle">O</text>
+      <text x="56" y="24" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2c2419">Oakridge Venue &amp; Estate</text>
+      <text x="56" y="42" font-family="sans-serif" font-size="11" fill="#6e5d48">Contract: Oakridge_Venue_2026.pdf • Deposit: $5,000</text>
+      <rect x="525" y="14" width="110" height="24" rx="6" fill="#10b981" fill-opacity="0.15"/>
+      <text x="580" y="30" font-family="sans-serif" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">Booked &amp; Signed</text>
+    </g>
+
+    <!-- Item 2 -->
+    <g transform="translate(25, 118)">
+      <rect width="650" height="52" rx="10" fill="#faf6eb" stroke="#ebdcc0"/>
+      <circle cx="30" cy="26" r="14" fill="#ec4899" fill-opacity="0.2"/>
+      <text x="30" y="31" font-family="serif" font-size="12" font-weight="bold" fill="#db2777" text-anchor="middle">L</text>
+      <text x="56" y="24" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2c2419">Lush Petals Floral Studio</text>
+      <text x="56" y="42" font-family="sans-serif" font-size="11" fill="#6e5d48">Proposal: $6,200 (Terracotta &amp; Garden Roses Arch)</text>
+      <rect x="525" y="14" width="110" height="24" rx="6" fill="#ca981d" fill-opacity="0.15"/>
+      <text x="580" y="30" font-family="sans-serif" font-size="10" font-weight="bold" fill="#a47814" text-anchor="middle">Quote Received</text>
+    </g>
+
+    <!-- Item 3 -->
+    <g transform="translate(25, 181)">
+      <rect width="650" height="52" rx="10" fill="#faf6eb" stroke="#ebdcc0"/>
+      <circle cx="30" cy="26" r="14" fill="#3b82f6" fill-opacity="0.2"/>
+      <text x="30" y="31" font-family="serif" font-size="12" font-weight="bold" fill="#2563eb" text-anchor="middle">S</text>
+      <text x="56" y="24" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2c2419">Sonoma Sound Collective (DJ)</text>
+      <text x="56" y="42" font-family="sans-serif" font-size="11" fill="#6e5d48">Contract: SonomaSound_Agreement.pdf • Investment: $2,800</text>
+      <rect x="525" y="14" width="110" height="24" rx="6" fill="#10b981" fill-opacity="0.15"/>
+      <text x="580" y="30" font-family="sans-serif" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">Booked &amp; Signed</text>
+    </g>
+
+    <!-- Right: Vision & Pinterest Sync Card -->
+    <rect x="730" y="0" width="390" height="255" rx="16" fill="#ffffff" stroke="#ebdcc0" filter="url(#shadow)"/>
+    <text x="755" y="35" font-family="serif" font-size="18" font-weight="bold" fill="#2c2419">Connected Vision Board</text>
+    <rect x="755" y="50" width="340" height="85" rx="10" fill="#fef2f2" stroke="#fecaca"/>
+    <circle cx="780" cy="85" r="16" fill="#ef4444"/>
+    <text x="780" y="91" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">P</text>
+    <text x="810" y="77" font-family="sans-serif" font-size="12" font-weight="bold" fill="#991b1b">Pinterest Board Synced</text>
+    <text x="810" y="95" font-family="sans-serif" font-size="11" fill="#7f1d1d">52 pins live in 10 categories</text>
+    <text x="810" y="112" font-family="sans-serif" font-size="10" fill="#b91c1c">"Organic Sonoman Chic 2026"</text>
+
+    <!-- Mini palette swatches -->
+    <text x="755" y="165" font-family="sans-serif" font-size="11" font-weight="bold" fill="#8c7a63" text-transform="uppercase">Extracted Color Palette</text>
+    <circle cx="770" cy="195" r="14" fill="#ca981d" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="805" cy="195" r="14" fill="#c27d53" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="840" cy="195" r="14" fill="#dfd2b9" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="875" cy="195" r="14" fill="#4a5d4e" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="910" cy="195" r="14" fill="#2c2419" stroke="#ffffff" stroke-width="2"/>
+
+    <text x="755" y="235" font-family="sans-serif" font-size="11" fill="#6e5d48">Palette automatically syncs to Design Canvas &amp; Inquiries.</text>
+  </g>
+</svg>

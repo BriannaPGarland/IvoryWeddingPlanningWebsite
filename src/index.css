@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-ivory-script {
+    font-family: 'Great Vibes', 'Alex Brush', 'Pinyon Script', 'Playfair Display', cursive, serif;
+    font-style: italic;
+  }
+  .font-ivory-cursive {
+    font-family: 'Alex Brush', 'Great Vibes', 'MonteCarlo', cursive;
+    font-style: italic;
+  }
+  .font-calligraphy {
+    font-family: 'Pinyon Script', 'Great Vibes', cursive;
+  }
+  .font-serif-italic {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    font-style: italic;
+  }
+}

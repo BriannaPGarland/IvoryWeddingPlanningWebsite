@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2e33"/>
+      <stop offset="100%" stop-color="#181a1c"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- Modal Container -->
+  <g transform="translate(180, 35)">
+    <!-- Window Outer -->
+    <rect width="840" height="605" rx="16" fill="#525659" stroke="#6e7681" filter="url(#shadow)"/>
+
+    <!-- Viewer Top Toolbar -->
+    <rect width="840" height="50" rx="16" fill="#323639"/>
+    <rect x="0" y="35" width="840" height="15" fill="#323639"/>
+    
+    <!-- Red PDF badge -->
+    <rect x="20" y="12" width="34" height="26" rx="6" fill="#dc2626"/>
+    <text x="37" y="29" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">PDF</text>
+
+    <!-- Document title & verification -->
+    <text x="65" y="25" font-family="sans-serif" font-size="13" font-weight="bold" fill="#f3f4f6">Oakridge_Venue_2026_Agreement.pdf</text>
+    <circle cx="68" cy="38" r="4" fill="#34d399"/>
+    <text x="77" y="41" font-family="sans-serif" font-size="10" fill="#9ca3af">Verified Email Attachment • Oakridge Venue &amp; Estate</text>
+
+    <!-- Toolbar buttons -->
+    <rect x="690" y="12" width="95" height="26" rx="6" fill="#4b5563"/>
+    <text x="737" y="29" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">⬇ Download</text>
+    <rect x="795" y="12" width="28" height="26" rx="6" fill="#4b5563"/>
+    <text x="809" y="29" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">✕</text>
+
+    <!-- AI Extraction Notification Banner inside viewer -->
+    <g transform="translate(40, 65)">
+      <rect width="760" height="42" rx="10" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-opacity="0.4"/>
+      <text x="20" y="26" font-family="sans-serif" font-size="11" fill="#fef3c7">
+        <tspan font-weight="bold" fill="#fbbf24">✨ Ivory AI Auto-Extracted:</tspan> Total $14,500 • Event Date: August 18, 2026 • Verified Deposit: $5,000
+      </text>
+      <rect x="650" y="10" width="90" height="22" rx="11" fill="#10b981" fill-opacity="0.25"/>
+      <text x="695" y="25" font-family="sans-serif" font-size="10" font-weight="bold" fill="#6ee7b7" text-anchor="middle">✓ Executed</text>
+    </g>
+
+    <!-- The Paper Document Preview -->
+    <g transform="translate(100, 125)">
+      <rect width="640" height="455" rx="6" fill="#ffffff" filter="url(#shadow)"/>
+      
+      <!-- Letterhead -->
+      <line x1="40" y1="65" x2="600" y2="65" stroke="#1c1917" stroke-width="2"/>
+      <text x="40" y="45" font-family="serif" font-size="20" font-weight="bold" fill="#1c1917">OAKRIDGE VENUE &amp; ESTATE</text>
+      <text x="40" y="58" font-family="sans-serif" font-size="10" fill="#78716c">Official Client Service Contract &amp; Booking Receipt</text>
+
+      <text x="600" y="35" font-family="sans-serif" font-size="10" fill="#78716c" text-anchor="end">Document ID: #EXT-84920</text>
+      <text x="600" y="50" font-family="sans-serif" font-size="10" font-weight="bold" fill="#047857" text-anchor="end">STATUS: SIGNED &amp; LOCKED</text>
+
+      <!-- Parties Grid -->
+      <rect x="40" y="80" width="560" height="55" rx="6" fill="#f5f5f4" stroke="#e7e5e4"/>
+      <text x="55" y="98" font-family="sans-serif" font-size="9" font-weight="bold" fill="#78716c">SERVICE PROVIDER:</text>
+      <text x="55" y="112" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1c1917">Oakridge Venue &amp; Estate (Sonoma, CA)</text>
+
+      <text x="330" y="98" font-family="sans-serif" font-size="9" font-weight="bold" fill="#78716c">CLIENT / COUPLE:</text>
+      <text x="330" y="112" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1c1917">Brianna Garland &amp; Jordan (Date: Aug 18, 2026)</text>
+
+      <!-- Section 1 -->
+      <text x="40" y="160" font-family="sans-serif" font-size="10" font-weight="bold" fill="#44403c">1. SCOPE OF SERVICES &amp; DELIVERABLES</text>
+      <line x1="40" y1="166" x2="600" y2="166" stroke="#e7e5e4"/>
+      <text x="40" y="182" font-family="serif" font-size="10" fill="#44403c">Exclusive access to Grand Lawn, Olive Grove, and Restored Barrel Room from 10:00 AM to 11:30 PM.</text>
+      <text x="40" y="196" font-family="serif" font-size="10" fill="#44403c">Includes ceremony chairs, dining tables, security, and day-of venue manager coordination.</text>
+
+      <!-- Section 2: Investment Breakdown -->
+      <text x="40" y="230" font-family="sans-serif" font-size="10" font-weight="bold" fill="#44403c">2. INVESTMENT SCHEDULE &amp; PAYMENT SUMMARY</text>
+      <line x1="40" y1="236" x2="600" y2="236" stroke="#e7e5e4"/>
+
+      <!-- Table -->
+      <rect x="40" y="246" width="560" height="24" fill="#f5f5f4"/>
+      <text x="50" y="262" font-family="sans-serif" font-size="10" font-weight="bold" fill="#78716c">Item Description</text>
+      <text x="590" y="262" font-family="sans-serif" font-size="10" font-weight="bold" fill="#78716c" text-anchor="end">Amount</text>
+
+      <text x="50" y="286" font-family="sans-serif" font-size="10" fill="#1c1917">Primary Wedding Package Reservation (Peak Season)</text>
+      <text x="590" y="286" font-family="sans-serif" font-size="10" fill="#1c1917" text-anchor="end">$12,325.00</text>
+
+      <text x="50" y="306" font-family="sans-serif" font-size="10" fill="#1c1917">On-Site Coordination &amp; Production Support</text>
+      <text x="590" y="306" font-family="sans-serif" font-size="10" fill="#1c1917" text-anchor="end">$2,175.00</text>
+
+      <line x1="40" y1="316" x2="600" y2="316" stroke="#e7e5e4"/>
+      <rect x="40" y="320" width="560" height="26" fill="#fefce8"/>
+      <text x="50" y="337" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1c1917">Total Contract Investment</text>
+      <text x="590" y="337" font-family="sans-serif" font-size="12" font-weight="bold" fill="#b45309" text-anchor="end">$14,500.00</text>
+
+      <!-- Signature block -->
+      <line x1="40" y1="375" x2="600" y2="375" stroke="#d6d3d1"/>
+      <text x="40" y="392" font-family="sans-serif" font-size="9" font-weight="bold" fill="#78716c">VENDOR REPRESENTATIVE SIGNATURE</text>
+      <text x="40" y="415" font-family="serif" font-style="italic" font-size="16" fill="#1c1917">Eleanor Vance</text>
+      <text x="40" y="430" font-family="sans-serif" font-size="8" fill="#a8a29e">Electronically Verified • Aug 18, 2026</text>
+
+      <text x="330" y="392" font-family="sans-serif" font-size="9" font-weight="bold" fill="#78716c">CLIENT SIGNATURE</text>
+      <text x="330" y="415" font-family="serif" font-style="italic" font-size="16" fill="#1c1917">Brianna Garland</text>
+      <text x="330" y="430" font-family="sans-serif" font-size="8" fill="#a8a29e">Electronically Signed via Email Link</text>
+    </g>
+  </g>
+</svg>

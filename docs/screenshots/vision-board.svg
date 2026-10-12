@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf6eb"/>
+      <stop offset="100%" stop-color="#f5ecdb"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <g transform="translate(50, 40)">
+    <text x="0" y="30" font-family="serif" font-size="32" font-weight="bold" fill="#2c2419">Multi-Category Vision System &amp; Pinterest Sync</text>
+    <text x="0" y="55" font-family="sans-serif" font-size="14" fill="#6e5d48">Curate 10 dedicated sub-categories with live Pinterest board ingestion, extracted color palettes, and vendor design briefs.</text>
+  </g>
+
+  <!-- Sub-Category Tab Pills Bar (Wrapped Layout) -->
+  <g transform="translate(50, 115)">
+    <rect width="1100" height="60" rx="14" fill="#ffffff" stroke="#ebdcc0" filter="url(#shadow)"/>
+    
+    <!-- Tab 1: Overall (Active) -->
+    <rect x="15" y="12" width="100" height="36" rx="8" fill="#ca981d"/>
+    <text x="65" y="34" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">✨ Overall</text>
+
+    <!-- Tab 2: Florals -->
+    <rect x="122" y="12" width="100" height="36" rx="8" fill="#faf6eb" stroke="#ebdcc0"/>
+    <text x="172" y="34" font-family="sans-serif" font-size="12" font-weight="bold" fill="#6e5d48" text-anchor="middle">🌸 Florals</text>
+
+    <!-- Tab 3: Attire -->
+    <rect x="229" y="12" width="95" height="36" rx="8" fill="#faf6eb" stroke="#ebdcc0"/>
+    <text x="276" y="34" font-family="sans-serif" font-size="12" font-weight="bold" fill="#6e5d48" text-anchor="middle">👗 Attire</text>
+
+    <!-- Tab 4: Venue -->
+    <rect x="331" y="12" width="95" height="36" rx="8" fill="#faf6eb" stroke="#ebdcc0"/>
+    <text x="378" y="34" font-family="sans-serif" font-size="12" font-weight="bold" fill="#6e5d48" text-anchor="middle">🏛 Venue</text>
+
+    <!-- Tab 5: Photography -->
+    <rect x="433" y="12" width="110" height="36" rx="8" fill="#faf6eb" stroke="#ebdcc0"/>
+    <text x="488" y="34" font-family="sans-serif" font-size="12" font-weight="bold" fill="#6e5d48" text-anchor="middle">📷 Photo Style</text>
+
+    <!-- Tab 6: Catering -->
+    <rect x="550" y="12" width="105" height="36" rx="8" fill="#faf6eb" stroke="#ebdcc0"/>
+    <text x="602" y="34" font-family="sans-serif" font-size="12" font-weight="bold" fill="#6e5d48" text-anchor="middle">🍷 Catering</text>
+
+    <!-- Tab 7: Signage -->
+    <rect x="662" y="12" width="100" height="36" rx="8" fill="#faf6eb" stroke="#ebdcc0"/>
+    <text x="712" y="34" font-family="sans-serif" font-size="12" font-weight="bold" fill="#6e5d48" text-anchor="middle">🖋 Signage</text>
+
+    <!-- Tab 8: Hair & Makeup -->
+    <rect x="769" y="12" width="125" height="36" rx="8" fill="#faf6eb" stroke="#ebdcc0"/>
+    <text x="831" y="34" font-family="sans-serif" font-size="12" font-weight="bold" fill="#6e5d48" text-anchor="middle">💄 Hair &amp; Makeup</text>
+
+    <!-- Tab 9: Custom -->
+    <rect x="901" y="12" width="110" height="36" rx="8" fill="#faf6eb" stroke="#ebdcc0"/>
+    <text x="956" y="34" font-family="sans-serif" font-size="12" font-weight="bold" fill="#6e5d48" text-anchor="middle">🌿 Custom</text>
+  </g>
+
+  <!-- Pinterest Connected Bar -->
+  <g transform="translate(50, 195)">
+    <rect width="1100" height="75" rx="14" fill="#ffffff" stroke="#ebdcc0" filter="url(#shadow)"/>
+    <circle cx="45" cy="37" r="18" fill="#dc2626"/>
+    <text x="45" y="44" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">P</text>
+    <text x="75" y="30" font-family="serif" font-size="15" font-weight="bold" fill="#2c2419">Pinterest Board Connected: <tspan fill="#ca981d">pinterest.com/brianna/organic-sonoman-chic-2026</tspan></text>
+    <text x="75" y="50" font-family="sans-serif" font-size="12" fill="#6e5d48">52 pins synchronized across 10 categories • Last synced 2 hours ago</text>
+    
+    <rect x="950" y="20" width="125" height="35" rx="8" fill="#dc2626"/>
+    <text x="1012" y="42" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">↻ Sync Board</text>
+  </g>
+
+  <!-- Pins Visual Grid (4 Columns) -->
+  <g transform="translate(50, 290)">
+    <!-- Pin 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="260" height="340" rx="14" fill="#ffffff" stroke="#ebdcc0" filter="url(#shadow)"/>
+      <rect width="260" height="230" rx="14" fill="#dfd2b9"/>
+      <!-- Floral illustration inside -->
+      <circle cx="130" cy="115" r="50" fill="#fbcfe8" opacity="0.6"/>
+      <circle cx="100" cy="95" r="30" fill="#f43f5e" opacity="0.4"/>
+      <circle cx="160" cy="110" r="35" fill="#fda4af" opacity="0.5"/>
+      <rect x="0" y="180" width="260" height="50" fill="#1c1917" fill-opacity="0.6"/>
+      <text x="15" y="210" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Terracotta Rose &amp; Olive Arch</text>
+      
+      <text x="15" y="258" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2c2419">Ceremony Floral Concept</text>
+      <text x="15" y="278" font-family="sans-serif" font-size="11" fill="#6e5d48">Garden roses, wild olive, dried foliage</text>
+      <rect x="15" y="295" width="70" height="20" rx="4" fill="#fef3c7"/>
+      <text x="50" y="309" font-family="sans-serif" font-size="10" font-weight="bold" fill="#b45309" text-anchor="middle">Top Pin</text>
+    </g>
+
+    <!-- Pin 2 -->
+    <g transform="translate(280, 0)">
+      <rect width="260" height="340" rx="14" fill="#ffffff" stroke="#ebdcc0" filter="url(#shadow)"/>
+      <rect width="260" height="230" rx="14" fill="#c4b5a0"/>
+      <!-- Tablescape placeholder -->
+      <rect x="30" y="80" width="200" height="70" rx="6" fill="#e7e5e4"/>
+      <circle cx="70" cy="115" r="16" fill="#f5f5f4"/>
+      <circle cx="130" cy="115" r="16" fill="#f5f5f4"/>
+      <circle cx="190" cy="115" r="16" fill="#f5f5f4"/>
+      <rect x="0" y="180" width="260" height="50" fill="#1c1917" fill-opacity="0.6"/>
+      <text x="15" y="210" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Raw Linen &amp; Amber Glassware</text>
+
+      <text x="15" y="258" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2c2419">Estate Tablescape Decor</text>
+      <text x="15" y="278" font-family="sans-serif" font-size="11" fill="#6e5d48">Hand-poured beeswax tapers, oatmeal linen</text>
+      <rect x="15" y="295" width="85" height="20" rx="4" fill="#ecfdf5"/>
+      <text x="57" y="309" font-family="sans-serif" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">Table Setting</text>
+    </g>
+
+    <!-- Pin 3 -->
+    <g transform="translate(560, 0)">
+      <rect width="260" height="340" rx="14" fill="#ffffff" stroke="#ebdcc0" filter="url(#shadow)"/>
+      <rect width="260" height="230" rx="14" fill="#a89a88"/>
+      <!-- Lighting canopy placeholder -->
+      <line x1="30" y1="50" x2="230" y2="70" stroke="#fef08a" stroke-width="3"/>
+      <line x1="30" y1="100" x2="230" y2="120" stroke="#fef08a" stroke-width="3"/>
+      <circle cx="80" cy="55" r="8" fill="#fde047"/>
+      <circle cx="150" cy="62" r="8" fill="#fde047"/>
+      <circle cx="110" cy="107" r="8" fill="#fde047"/>
+      <rect x="0" y="180" width="260" height="50" fill="#1c1917" fill-opacity="0.6"/>
+      <text x="15" y="210" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Festoon &amp; Vineyard Sunset</text>
+
+      <text x="15" y="258" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2c2419">Atmosphere &amp; Lighting</text>
+      <text x="15" y="278" font-family="sans-serif" font-size="11" fill="#6e5d48">Warm 2200K ambient festoon fairy canopy</text>
+      <rect x="15" y="295" width="65" height="20" rx="4" fill="#fef2f2"/>
+      <text x="47" y="309" font-family="sans-serif" font-size="10" font-weight="bold" fill="#b91c1c" text-anchor="middle">Lighting</text>
+    </g>
+
+    <!-- Pin 4 -->
+    <g transform="translate(840, 0)">
+      <rect width="260" height="340" rx="14" fill="#ffffff" stroke="#ebdcc0" filter="url(#shadow)"/>
+      <rect width="260" height="230" rx="14" fill="#cbd5e1"/>
+      <!-- Signage placeholder -->
+      <rect x="60" y="40" width="140" height="150" rx="4" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="130" y="100" font-family="serif" font-size="13" fill="#334155" text-anchor="middle">WELCOME</text>
+      <text x="130" y="120" font-family="serif" font-size="9" fill="#64748b" text-anchor="middle">Brianna &amp; Jordan</text>
+      <rect x="0" y="180" width="260" height="50" fill="#1c1917" fill-opacity="0.6"/>
+      <text x="15" y="210" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Frosted Arch Stationery</text>
+
+      <text x="15" y="258" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2c2419">Custom Wedding Stationery</text>
+      <text x="15" y="278" font-family="sans-serif" font-size="11" fill="#6e5d48">Handmade deckled paper &amp; wax seal</text>
+      <rect x="15" y="295" width="75" height="20" rx="4" fill="#f5f3ff"/>
+      <text x="52" y="309" font-family="sans-serif" font-size="10" font-weight="bold" fill="#6d28d9" text-anchor="middle">Stationery</text>
+    </g>
+  </g>
+</svg>

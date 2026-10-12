@@ -1,0 +1,6 @@
+{
+  "name": "Ivory - Calming AI Wedding Planning Studio",
+  "description": "Vibrant and calming AI-powered wedding planning platform with Chrome Extension auto-fill, Google Calendar synchronization, AI contract quote extraction, and vision canvas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
