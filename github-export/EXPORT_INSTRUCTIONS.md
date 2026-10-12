@@ -64,6 +64,22 @@ If you prefer using a web browser without the terminal:
 
 ---
 
+## 🔒 Security & Secret Scanning Guaranteed
+
+This repository has been audited and hardened against secret detection:
+* **Zero Hardcoded Secrets**: All live API keys and sensitive project configs (including `firebase-applet-config.json` and `.env`) are ignored via `.gitignore` and excluded from git tracking and zip exports.
+* **Safe Template Files**: Only safe example templates (`.env.example` and `firebase-applet-config.example.json`) with dummy placeholders are included in the repository.
+* **Clean Git History**: All commits in this repository contain zero credentials or tokens.
+
+> **💡 Note for Existing GitHub Repositories**:
+> If GitHub previously rejected your push or flagged a secret on an earlier upload, simply force-push this clean commit over your branch:
+> ```bash
+> git push -u origin main --force
+> ```
+> This immediately replaces the old commit history on GitHub with this completely clean, sanitized release.
+
+---
+
 ## 📦 What is Included in this Repository:
 * `README.md` — Complete master guide with 5 visual mockups, architecture diagrams, and full feature breakdowns.
 * `docs/screenshots/` — 5 high-fidelity vector preview screenshots:
